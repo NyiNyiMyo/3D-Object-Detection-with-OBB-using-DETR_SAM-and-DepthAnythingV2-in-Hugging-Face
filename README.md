@@ -1,4 +1,6 @@
-# 3D Object Detection with OBB using DETR SAM and DepthAnythingV2 in Hugging Face
+<div align="center">
+    <h1>3D Object Detection with OBB using DETR SAM and <br/> DepthAnythingV2 in Hugging Face</h1>
+</div>
 
 ## 🧊 Monocular 3D Object Detection
 
@@ -15,3 +17,24 @@
 
 ![Visualization eg1](DETR-OBB-3d-topview.png)  
 ![Visualization eg2](DETR-OBB-3d-sideview.png)  
+
+---
+
+## 🏗️ Methodology
+
+- 🔳 Object Detection Model: **facebook/detr-resnet-50**
+- 🔳 Framework: **PyTorch + Hugging Face**
+- 🔳 Depth Estimation Model: **Depth-Anything-V2-Small-hf**
+- 🔳 Framework: **Hugging Face**
+- 🔳 Segment Anything Model: **mobile_sam.pt(vit_t)**
+- 🔳 Framework: **PyTorch**
+
+---
+
+## ⭐ Acknowledgements
+
+- Detr powered by `Hugging Face`
+- DepthAnythingV2 powered by `Hugging Face`
+- MobileSAM powered by `PyTorch`
+
+---
